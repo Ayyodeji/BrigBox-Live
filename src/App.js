@@ -27,7 +27,8 @@ class App extends React.Component {
         <div className="content">
           <div className="title-holder">
             <h1>Coming Soon.</h1>
-            <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
+            <p>We are a multidisciplinary firm that can assist you in employing technology and artificial intelligence to quickly and easily identify solutions to any load of your daily work.
+           </p>
           </div>
           <a href="mailto:hr@brigbox.com">
             <div className="cta">Send us an email</div>
