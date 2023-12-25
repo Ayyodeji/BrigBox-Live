@@ -1,14 +1,11 @@
 import { useInView } from 'framer-motion';
 import { FC, useRef } from 'react';
-// import aboutImg from '../../images/about-us.jpg';
+import aboutImg from '../../images/about-us.jpg';
 import { ChoseUs } from './ChoseUs';
 import './about.css';
-import lightThemeAboutUsImg from '../../images/about-us.jpg';
-import darkThemeAboutUsImg from '../../images/dark-about-us.jpg';
+// import lightThemeAboutUsImg from '../../images/about-us.jpg';
+// import darkThemeAboutUsImg from '../../images/dark-about-us.jpg';
 
-interface Props {
-  theme: string;
-}
 
 const chooseData = [
   {
@@ -31,7 +28,7 @@ const chooseData = [
   },
 ];
 
-export const About: FC<Props> = ({ theme }) => {
+export const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -65,11 +62,7 @@ export const About: FC<Props> = ({ theme }) => {
             </div>
           </div>
           <div className="about__img">
-            <img
-              src={theme === '' ? darkThemeAboutUsImg  : lightThemeAboutUsImg
-            }
-              alt="About Us"
-            />
+            <img src={aboutImg} alt="about-us" />
           </div>
         </div>
       </div>
