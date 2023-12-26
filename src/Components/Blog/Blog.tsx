@@ -48,7 +48,7 @@ export const Blog = () => {
           <h6 className="subtitle">Our Solutions</h6>
           <h2>
             Let's have a look at our
-            <span className="highlight">solutions</span>
+            <span className="highlight"> solutions</span>
           </h2>
         </div>
         <div className="blog__wrapper">
