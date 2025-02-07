@@ -31,7 +31,7 @@ function App() {
                 <Counter />
                 <Services />
                 <About />
-                <Team />
+{/*                 <Team /> */}
                 <Blog />
                 <Testimonial />
                 <Newsletter />
